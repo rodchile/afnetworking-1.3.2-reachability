@@ -182,8 +182,8 @@ typedef NS_ENUM(NSInteger, AFNetworkReachabilityStatus) {
 
  @warning In order for network reachability to be monitored, include the `SystemConfiguration` framework in the active target's "Link Binary With Library" build phase, and add `#import <SystemConfiguration/SystemConfiguration.h>` to the header prefix of the project (`Prefix.pch`).
  */
-extern NSString * const AFNetworkingReachabilityDidChangeNotification;
-extern NSString * const AFNetworkingReachabilityNotificationStatusItem;
+extern NSString * const AFNetworkingReachabilityDidChangeNotificationSk;
+extern NSString * const AFNetworkingReachabilityNotificationStatusItemSk;
 
 ///--------------------
 /// @name Functions

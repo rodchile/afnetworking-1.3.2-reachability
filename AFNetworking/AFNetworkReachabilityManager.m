@@ -22,8 +22,8 @@
 
 #import "AFNetworkReachabilityManager.h"
 
-NSString * const AFNetworkingReachabilityDidChangeNotification = @"com.alamofire.networking.reachability.change";
-NSString * const AFNetworkingReachabilityNotificationStatusItem = @"AFNetworkingReachabilityNotificationStatusItem";
+NSString * const AFNetworkingReachabilityDidChangeNotificationSk = @"com.alamofire.networking.reachability.change";
+NSString * const AFNetworkingReachabilityNotificationStatusItemSk = @"AFNetworkingReachabilityNotificationStatusItem";
 
 typedef void (^AFNetworkReachabilityStatusBlock)(AFNetworkReachabilityStatus status);
 
