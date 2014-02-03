@@ -23,6 +23,8 @@
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
 
+#import "AFHTTPClient.h"
+
 #import <netinet/in.h>
 #import <netinet6/in6.h>
 #import <arpa/inet.h>
